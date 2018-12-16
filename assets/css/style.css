@@ -1,0 +1,33 @@
+body { 
+    
+    background-image: url("../../assets/images/warp-room-bandicoot.jpg");
+    background-position:0;
+
+
+}
+
+h1 {
+    /* margin-left: 10%; */
+    /* margin-top: 2%; */
+    color: red;
+}
+
+#bluecrystal {
+    height: 200px;
+    width: 200px;
+}
+
+#redcrystal {
+    height: 200px;
+    width: 200px;
+}
+
+#purplecrystal {
+    height: 200px;
+    width: 200px;
+}
+
+#whitecrystal {
+    height: 150px;
+    width: 200px;
+}

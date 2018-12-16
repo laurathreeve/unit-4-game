@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Crystal Collector Game </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+    </head>
+    
+    <body>
+            <div class ="container">
+                <div class="row">
+                    <div class= col-sm-12>
+                            <div class="jumbotron">
+                                    <h1 class="display-4">The Crash Bandicoot Crystal Collector Game </h1>
+                                    <p class="lead">Help Crash collect the right point value of crystals to defeat Dr. Cortex.</p>
+                                    <hr class="my-4">
+                                    <p>Click a crystal or combination of crystals to exacly match the value displayed</p>
+                                    <a class="btn btn-primary btn-lg" id="start-button" href="#" role="button">Start</a>
+                                  </div>
+
+                    </div>
+                </div>        
+            <div class ="container"> 
+                <div class="row">
+                    <div class=col-sm-4>
+                        <img src ="assets/images/Crash-Bandicoot.png">
+                    </div>
+                        <div class=col-sm-4>
+                        <img id="bluecrystal" src="assets/images/bluecrystal.png">
+                        <img id="whitecrystal" src="assets/images/whitecrystal.png">
+                        <img id="purplecrystal" src="assets/images/purplecrystal.png">
+                        <img id="redcrystal" src="assets/images/redcrystal.png">
+                        </div>
+                    <div class=col-sm-4>
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                              <h5 class="card-title" id="total">Total Goes Here</h5>
+                              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                              <p class="card-text" id="bluevalue">Value of Blue Gem Goes Here</p>
+                              <p class="card-text" id="whitevalue">Value of White Gem Goes Here</p>
+                              <p class="card-text" id="purplevalue">Value of Purple Gem Goes Here</p>
+                              <p class="card-text" id="redvalue">Value of Red Gem Goes Here</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
